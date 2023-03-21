@@ -1,16 +1,23 @@
 [tool.poetry]
 name = "gpsexif"
-version = "0.1.0"
+version = "0.2.6"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pillow = "^9.4.0"
 typer = "^0.7.0"
+rich = "^13.3.2"
 
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gpsexif = "gpsexif.main:app"
