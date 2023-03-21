@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gpsexif2csv"
-version = "0.3.2"
+version = "0.3.3"
 description = "Extract EXIF GPS data into CSV"
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 readme = "README.md"
