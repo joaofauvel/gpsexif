@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "gpsexif"
-version = "0.2.7"
-description = ""
+name = "gpsexif2csv"
+version = "0.3.1"
+description = "Extract EXIF GPS data into CSV"
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 readme = "README.md"
 
@@ -20,4 +20,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-gpsexif = "gpsexif.main:app"
+gpsexif2csv = "gpsexif2csv.main:app"
