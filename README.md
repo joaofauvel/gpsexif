@@ -9,7 +9,8 @@ Usage: gpsexif2csv **OPTIONS** DIRECTORY OUTFILE
 
 
 Arguments:
-  DIRECTORY  Directory to search for images (recursively)  **required**
+  DIRECTORY  Directory to search for images (recursively)  **required**  
+  
   OUTFILE    Output CSV file **required**  
 
 
