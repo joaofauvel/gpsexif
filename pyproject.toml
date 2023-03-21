@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gpsexif"
-version = "0.2.6"
+version = "0.2.7"
 description = ""
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 readme = "README.md"
