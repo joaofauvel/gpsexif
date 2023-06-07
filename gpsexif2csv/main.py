@@ -61,7 +61,7 @@ def write_point_geometry_file(images, outfile):
                 if gps_longitude_ref == 'W':
                     gps_longitude = -gps_longitude
                 image_path = Path(image)
-                path = str(image_path.parent.name) + '/' + str(image_path.name)
+                path = str(image_path.resolve())
                 writer.writerow(
                     {'Path': path, 'Latitude': gps_latitude, 'Longitude': gps_longitude})
                 total += 1
